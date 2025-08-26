@@ -33,3 +33,10 @@ h1, .caixa-perguntas, .caixa-resultado {
 h1 {
     color: var(--cor-destaque);
 }
+
+.caixa-alternativa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
