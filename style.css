@@ -25,3 +25,11 @@ body {
     text-align: center;
     padding: 20px;
 }
+
+h1, .caixa-perguntas, .caixa-resultado {
+    font-family: 'chakra peth' sans-serif;
+}
+
+h1 {
+    color: var(--cor-destaque);
+}
