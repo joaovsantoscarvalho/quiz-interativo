@@ -12,7 +12,7 @@ const perguntas = [
                         {
                 Texto: "alternativa 2",
                 afirmacao: [
-                    "afirmação 1,"
+                    "afirmação 1",
                     "afirmação 2"
                 ],
             }
