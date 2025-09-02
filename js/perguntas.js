@@ -1,97 +1,97 @@
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Qual é a capital da Itália?",
         alternativas: [
             {
-                Texto: "alternativa 1",
+                Texto: "Roma",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Correto! Roma é a capital da Itália e um dos destinos mais turísticos do mundo.",
+                    "A cidade é famosa por sua história antiga, incluindo o Coliseu e o Fórum Romano."
                 ],
             },
-                        {
-                Texto: "alternativa 2",
+            {
+                Texto: "Milão",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Errado. Milão é uma importante cidade italiana, mas não é a capital.",
+                    "Milão é conhecida como a capital da moda e por sua economia forte."
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Qual é o maior continente em área?",
         alternativas: [
             {
-                Texto: "alternativa 1",
+                Texto: "Ásia",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Correto! A Ásia é o maior continente tanto em área quanto em população.",
+                    "Ela cobre cerca de 30% da superfície terrestre."
                 ],
             },
-                        {
-                Texto: "alternativa 2",
+            {
+                Texto: "América do Norte",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Errado. A América do Norte é grande, mas não é o maior continente.",
+                    "A América do Norte é formada por países como os EUA, Canadá e México."
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Qual é o processo pelo qual as plantas produzem seu próprio alimento?",
         alternativas: [
             {
-                Texto: "alternativa 1",
+                Texto: "Fotossíntese",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Muito bem! As plantas usam a luz solar, dióxido de carbono e água para produzir glicose.",
+                    "Esse processo ocorre principalmente nas folhas, com a ajuda da clorofila."
                 ],
             },
-                        {
-                Texto: "alternativa 2",
+            {
+                Texto: "Respiração celular",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Quase! A respiração celular também é importante para as plantas, mas não é o processo de produção de alimento.",
+                    "A respiração celular envolve a quebra de glicose para liberar energia."
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 4",
+        enunciado: "Em que ano ocorreu a Primeira Guerra Mundial?",
         alternativas: [
             {
-                Texto: "alternativa 1",
+                Texto: "1914-1918",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Correto! A Primeira Guerra Mundial ocorreu entre 1914 e 1918, envolvendo várias potências mundiais.",
+                    "Foi um dos maiores conflitos da história, alterando profundamente o mapa político mundial."
                 ],
             },
-                        {
-                Texto: "alternativa 2",
+            {
+                Texto: "1939-1945",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Errado. Essas datas correspondem à Segunda Guerra Mundial.",
+                    "A Segunda Guerra Mundial foi o maior conflito militar da história."
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 5",
+        enunciado: "Qual é o símbolo químico do ouro?",
         alternativas: [
             {
-                Texto: "alternativa 1",
+                Texto: "Au",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Muito bem! 'Au' é o símbolo do ouro na tabela periódica.",
+                    "O ouro é um metal precioso, muito utilizado em joias e investimentos."
                 ],
             },
-                        {
-                Texto: "alternativa 2",
+            {
+                Texto: "Ag",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Errado. 'Ag' é o símbolo do prata, não do ouro.",
+                    "A prata é outro metal precioso, amplamente usado em utensílios e jóias."
                 ],
             }
         ]
     }
-]
+];
