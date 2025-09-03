@@ -1,3 +1,9 @@
+import {aleatorio} from './aleatorio';
+import {perguntas} from './perguntas';
+
+
+
+
 {
 caixaPerguntas.classlist.remove(".mostrar");
 caixaAlternativas.classlist.remove(".mostrar");
@@ -16,6 +22,16 @@ function mostraPergunta() {
   caixaAlternativas.textContent = "";
   mostraAlternativas ();
 }
+
+function mostraAlternativas() {}
+
+function mostrarResultado() {
+  caixaPerguntas.textContent = 
+}
+
+function jogarNovamente() {}
+
+
 
 
 
