@@ -1,7 +1,16 @@
 import {aleatorio} from './aleatorio';
 import {perguntas} from './perguntas';
 
+const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPerguntas = document.querySelector()
+const caixaAlternativas = document.querySelector()
+const caixaResultado = document.querySelector()
+const botaoIniciar =document.querySelector()
+const telaInicial = document.querySelector()
 
+let atual = 0;
+let perguntasAtual;
+let historiaFinal = "";
 
 
 {
@@ -26,7 +35,11 @@ function mostraPergunta() {
 function mostraAlternativas() {}
 
 function mostrarResultado() {
-  caixaPerguntas.textContent = 
+  caixaPerguntas.textContent = crazi;
+  textoResultado.textContent = historiaFinal
+  caixaAlternativas.textContent = "";
+  caixaResultado.classlist.add(".mostrar");
+  btoaJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
 function jogarNovamente() {}
