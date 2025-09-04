@@ -1,97 +1,97 @@
 const perguntas = [
     {
-        enunciado: "Qual é a capital da Itália?",
+        enunciado: "Qual é a distância oficial de um Ironman?",
         alternativas: [
             {
-                Texto: "Roma",
+                Texto: "3,8 km de natação, 180 km de ciclismo e 42,195 km de corrida",
                 afirmacao: [
-                    "Correto! Roma é a capital da Itália e um dos destinos mais turísticos do mundo.",
-                    "A cidade é famosa por sua história antiga, incluindo o Coliseu e o Fórum Romano."
+                    "Correto! Um Ironman é uma das provas de triatlo mais desafiadoras.",
+                    "Esta distância é considerada o 'padrão' para o triatlo de longa distância."
                 ],
             },
             {
-                Texto: "Milão",
+                Texto: "1,5 km de natação, 40 km de ciclismo e 10 km de corrida",
                 afirmacao: [
-                    "Errado. Milão é uma importante cidade italiana, mas não é a capital.",
-                    "Milão é conhecida como a capital da moda e por sua economia forte."
+                    "Errado. Essa distância é mais próxima de um triatlo olímpico.",
+                    "O triatlo olímpico é uma das distâncias mais populares em competições."
                 ],
             }
         ]
     },
     {
-        enunciado: "Qual é o maior continente em área?",
+        enunciado: "Qual é a principal transição no triatlo?",
         alternativas: [
             {
-                Texto: "Ásia",
+                Texto: "A transição entre natação e ciclismo",
                 afirmacao: [
-                    "Correto! A Ásia é o maior continente tanto em área quanto em população.",
-                    "Ela cobre cerca de 30% da superfície terrestre."
+                    "Correto! A transição de natação para ciclismo é uma das mais importantes no triatlo.",
+                    "Essa transição é conhecida como T1, e o atleta precisa trocar o equipamento de natação pelo de ciclismo."
                 ],
             },
             {
-                Texto: "América do Norte",
+                Texto: "A transição entre ciclismo e corrida",
                 afirmacao: [
-                    "Errado. A América do Norte é grande, mas não é o maior continente.",
-                    "A América do Norte é formada por países como os EUA, Canadá e México."
+                    "Errado. A transição de ciclismo para corrida, chamada de T2, também é muito importante, mas a T1 é a principal no triatlo.",
+                    "T2 é crucial para ajustar a postura após o esforço intenso do ciclismo."
                 ],
             }
         ]
     },
     {
-        enunciado: "Qual é o processo pelo qual as plantas produzem seu próprio alimento?",
+        enunciado: "O que é necessário para um triatleta realizar uma boa transição?",
         alternativas: [
             {
-                Texto: "Fotossíntese",
+                Texto: "Prática e organização do material de transição",
                 afirmacao: [
-                    "Muito bem! As plantas usam a luz solar, dióxido de carbono e água para produzir glicose.",
-                    "Esse processo ocorre principalmente nas folhas, com a ajuda da clorofila."
+                    "Correto! A prática de transições é essencial para economizar tempo.",
+                    "Além disso, a organização dos itens na área de transição pode fazer uma grande diferença na velocidade."
                 ],
             },
             {
-                Texto: "Respiração celular",
+                Texto: "Usar equipamentos leves e caros",
                 afirmacao: [
-                    "Quase! A respiração celular também é importante para as plantas, mas não é o processo de produção de alimento.",
-                    "A respiração celular envolve a quebra de glicose para liberar energia."
+                    "Errado. Embora equipamentos de qualidade ajudem, o mais importante na transição é a prática e a preparação.",
+                    "Equipamentos caros não garantem uma boa transição se o atleta não for eficiente."
                 ],
             }
         ]
     },
     {
-        enunciado: "Em que ano ocorreu a Primeira Guerra Mundial?",
+        enunciado: "Qual é a principal estratégia de nutrição para um triatleta em uma prova longa?",
         alternativas: [
             {
-                Texto: "1914-1918",
+                Texto: "Repor carboidratos e eletrólitos durante a prova",
                 afirmacao: [
-                    "Correto! A Primeira Guerra Mundial ocorreu entre 1914 e 1918, envolvendo várias potências mundiais.",
-                    "Foi um dos maiores conflitos da história, alterando profundamente o mapa político mundial."
+                    "Correto! Durante provas longas, como o Ironman, a reposição de carboidratos e eletrólitos é essencial.",
+                    "A hidratação e os carboidratos ajudam a manter o nível de energia e a prevenir a fadiga."
                 ],
             },
             {
-                Texto: "1939-1945",
+                Texto: "Fazer jejum antes da prova para aumentar a resistência",
                 afirmacao: [
-                    "Errado. Essas datas correspondem à Segunda Guerra Mundial.",
-                    "A Segunda Guerra Mundial foi o maior conflito militar da história."
+                    "Errado. O jejum pode reduzir os níveis de energia durante a prova.",
+                    "É importante comer antes e durante a competição para manter os níveis de glicose no sangue estáveis."
                 ],
             }
         ]
     },
     {
-        enunciado: "Qual é o símbolo químico do ouro?",
+        enunciado: "Quais são as três modalidades do triatlo?",
         alternativas: [
             {
-                Texto: "Au",
+                Texto: "Natação, ciclismo e corrida",
                 afirmacao: [
-                    "Muito bem! 'Au' é o símbolo do ouro na tabela periódica.",
-                    "O ouro é um metal precioso, muito utilizado em joias e investimentos."
+                    "Correto! O triatlo é composto por três modalidades: natação, ciclismo e corrida, realizadas em sequência.",
+                    "A combinação dessas modalidades faz do triatlo uma das competições mais desafiadoras."
                 ],
             },
             {
-                Texto: "Ag",
+                Texto: "Corrida, levantamento de peso e natação",
                 afirmacao: [
-                    "Errado. 'Ag' é o símbolo do prata, não do ouro.",
-                    "A prata é outro metal precioso, amplamente usado em utensílios e jóias."
+                    "Errado. O triatlo não envolve levantamento de peso, apenas natação, ciclismo e corrida.",
+                    "Essas três modalidades exigem habilidades muito diferentes e uma preparação física completa."
                 ],
             }
         ]
     }
-]
+];
