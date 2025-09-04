@@ -37,7 +37,7 @@ function mostraPergunta() {
 function mostraAlternativas() {}
 
 function mostrarResultado() {
-  caixaPerguntas.textContent = crazi;
+  caixaPerguntas.textContent = '';
   textoResultado.textContent = historiaFinal
   caixaAlternativas.textContent = "";
   caixaResultado.classlist.add(".mostrar");
