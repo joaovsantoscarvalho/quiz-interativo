@@ -37,7 +37,16 @@ function mostraPergunta() {
   mostraAlternativas ();
 }
 
-function mostraAlternativas() {}
+function mostraAlternativas() {
+  for(const altrernativca of perguntaAtual.alternativas){
+    const botaoAlternativas = document.createElement("button");
+    botaoAlternativas.textContent = alternativa.texto;
+    botaoAlternativas.addEventListener("click", ()=> respostaSelecionadas(alternativa));
+    caixaAlternativas.appendChild(botaoAlternativas);
+  }
+}
+
+function respostaSelecionada(opcaoSelecioonada) {}
 
 function mostrarResultado() {
   caixaPerguntas.textContent = '';
