@@ -46,7 +46,11 @@ function mostraAlternativas() {
   }
 }
 
-function respostaSelecionada(opcaoSelecioonada) {}
+function respostaSelecionada(opcaoSelecioonada) {
+  const afirmacoes = aleatorio(opcaoSelecioonada.afirmacao);
+  historiaFinal += afirmacoes + " ";
+  if
+}
 
 function mostrarResultado() {
   caixaPerguntas.textContent = '';
@@ -56,4 +60,9 @@ function mostrarResultado() {
   botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
-function jogarNovamente() {}
+function jogarNovamente() {
+  atual = 0;
+  historiaFinal "";
+  caixaResultado.classList.remove("mostrar");
+  mostraPergunta();
+}
