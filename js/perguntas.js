@@ -1,6 +1,6 @@
 const perguntas = [
     {
-        enunciado: "Qual é a distância oficial de um Ironman?",
+        enunciado: "Você sabe qual é a distância oficial de um Ironman?",
         alternativas: [
             {
                 Texto: "3,8 km de natação, 180 km de ciclismo e 42,195 km de corrida",
@@ -19,7 +19,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Qual é a principal transição no triatlo?",
+        enunciado: "Você sabe qual é a principal transição no triatlo?",
         alternativas: [
             {
                 Texto: "A transição entre natação e ciclismo",
@@ -38,7 +38,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "O que é necessário para um triatleta realizar uma boa transição?",
+        enunciado: "Você sabe o que é necessário para um triatleta realizar uma boa transição?",
         alternativas: [
             {
                 Texto: "Prática e organização do material de transição",
@@ -57,7 +57,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Qual é a principal estratégia de nutrição para um triatleta em uma prova longa?",
+        enunciado: "Você sabe qual é a principal estratégia de nutrição para um triatleta em uma prova longa?",
         alternativas: [
             {
                 Texto: "Repor carboidratos e eletrólitos durante a prova",
@@ -76,7 +76,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Quais são as três modalidades do triatlo?",
+        enunciado: "Você sabe quais são as três modalidades do triatlo?",
         alternativas: [
             {
                 Texto: "Natação, ciclismo e corrida",
