@@ -1,4 +1,4 @@
-const perguntas = [
+export const perguntas = [
     {
         enunciado: "Você sabe qual é a distância oficial de um Ironman?",
         alternativas: [
