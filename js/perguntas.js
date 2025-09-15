@@ -1,20 +1,22 @@
 export const perguntas = [
     {
-        enunciado: "Você sabe qual é a distância oficial de um Ironman?",
+        enunciado: "Você prefere correr uma ultramaratona ou fazer um ironman",
         alternativas: [
             {
-                Texto: "3,8 km de natação, 180 km de ciclismo e 42,195 km de corrida",
+                Texto: "ultamaratona 110Km na montanha ",
                 afirmacao: [
-                    "Correto! Um Ironman é uma das provas de triatlo mais desafiadoras.",
-                    "Esta distância é considerada o 'padrão' para o triatlo de longa distância."
+                    "legal é uma distancia desafiadora",
+                    "exige banstante preparo"
                 ],
+                poxima: 1,
             },
             {
-                Texto: "1,5 km de natação, 40 km de ciclismo e 10 km de corrida",
+                Texto: "ironman 3,800m  nadando 180Km pedalando e 42,195m correndo",
                 afirmacao: [
-                    "Errado. Essa distância é mais próxima de um triatlo olímpico.",
-                    "O triatlo olímpico é uma das distâncias mais populares em competições."
+                    "show uma distancia espetacular que envolve tres espotes",
+                    "você gosta de desfios "
                 ],
+                proxima: 1,
             }
         ]
     },
@@ -27,6 +29,7 @@ export const perguntas = [
                     "Correto! A transição de natação para ciclismo é uma das mais importantes no triatlo.",
                     "Essa transição é conhecida como T1, e o atleta precisa trocar o equipamento de natação pelo de ciclismo."
                 ],
+                proxima: 2,
             },
             {
                 Texto: "A transição entre ciclismo e corrida",
@@ -34,6 +37,7 @@ export const perguntas = [
                     "Errado. A transição de ciclismo para corrida, chamada de T2, também é muito importante, mas a T1 é a principal no triatlo.",
                     "T2 é crucial para ajustar a postura após o esforço intenso do ciclismo."
                 ],
+                proxima: 2,
             }
         ]
     },
@@ -46,6 +50,7 @@ export const perguntas = [
                     "Correto! A prática de transições é essencial para economizar tempo.",
                     "Além disso, a organização dos itens na área de transição pode fazer uma grande diferença na velocidade."
                 ],
+                proxima: 3,
             },
             {
                 Texto: "Usar equipamentos leves e caros",
@@ -53,6 +58,7 @@ export const perguntas = [
                     "Errado. Embora equipamentos de qualidade ajudem, o mais importante na transição é a prática e a preparação.",
                     "Equipamentos caros não garantem uma boa transição se o atleta não for eficiente."
                 ],
+                proxima: 3,
             }
         ]
     },
@@ -65,6 +71,7 @@ export const perguntas = [
                     "Correto! Durante provas longas, como o Ironman, a reposição de carboidratos e eletrólitos é essencial.",
                     "A hidratação e os carboidratos ajudam a manter o nível de energia e a prevenir a fadiga."
                 ],
+                proxima: 4,
             },
             {
                 Texto: "Fazer jejum antes da prova para aumentar a resistência",
@@ -72,6 +79,7 @@ export const perguntas = [
                     "Errado. O jejum pode reduzir os níveis de energia durante a prova.",
                     "É importante comer antes e durante a competição para manter os níveis de glicose no sangue estáveis."
                 ],
+                proxima: 4,
             }
         ]
     },
