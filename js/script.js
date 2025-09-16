@@ -31,14 +31,14 @@ function mostraPergunta() {
     mostrarResultado();
     return;
   }
-  perguntasAtual = perguntas[atual];
+  perguntaAtual = perguntas[atual];
   caixaPerguntas.textContent = perguntaAtual.enunciado;
   caixaAlternativas.textContent = "";
   mostraAlternativas ();
 }
 
 function mostraAlternativas(){
-  for(const altrernativa of perguntaAtual.alternativas){
+  for(const alternativa of perguntaAtual.alternativas){
     const botaoAlternativas = document.createElement("button");
     botaoAlternativas.textContent = alternativa.texto;
     botaoAlternativas.addEventListener("click", ()=> respostaSelecionada(alternativa));
@@ -47,7 +47,7 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada){
-  const afirmacoes = aleatorio(opcaoSelecioonada.afirmacao);
+  const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
   historiaFinal += afirmacoes + " ";
   if(opcaoSelecioonada.proxima !== undefined) {
     atual = opcaoSelecioonada.proxima;
