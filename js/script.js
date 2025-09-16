@@ -31,22 +31,22 @@ function mostraPergunta() {
     mostrarResultado();
     return;
   }
-  perguntasAtual = perguntas [atual];
+  perguntasAtual = perguntas[atual];
   caixaPerguntas.textContent = perguntaAtual.enunciado;
   caixaAlternativas.textContent = "";
   mostraAlternativas ();
 }
 
-function mostraAlternativas() {
-  for(const altrernativca of perguntaAtual.alternativas){
+function mostraAlternativas(){
+  for(const altrernativa of perguntaAtual.alternativas){
     const botaoAlternativas = document.createElement("button");
     botaoAlternativas.textContent = alternativa.texto;
-    botaoAlternativas.addEventListener("click", ()=> respostaSelecionadas(alternativa));
+    botaoAlternativas.addEventListener("click", ()=> respostaSelecionada(alternativa));
     caixaAlternativas.appendChild(botaoAlternativas);
   }
 }
 
-function respostaSelecionada(opcaoSelecioonada){
+function respostaSelecionada(opcaoSelecionada){
   const afirmacoes = aleatorio(opcaoSelecioonada.afirmacao);
   historiaFinal += afirmacoes + " ";
   if(opcaoSelecioonada.proxima !== undefined) {
@@ -59,21 +59,21 @@ function respostaSelecionada(opcaoSelecioonada){
 }
 
 function mostrarResultado(){
-  caixaPerguntas.textContent = 'Após os estudos, $';
+  caixaPerguntas.textContent = `Após os estudos, ${nome} descobriu que`;
   textoResultado.textContent = historiaFinal;
   caixaAlternativas.textContent = "";
-  caixaResultado.classlist.add("mostrar");
+  caixaResultado.classList.add("mostrar");
   botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
 function jogarNovamente(){
   atual = 0;
-  historiaFinal "";
+  historiaFinal  = "";
   caixaResultado.classList.remove("mostrar");
   mostraPergunta();
 }
 
-function substituiNome()c{
+function substituiNome() {
   for(const pergunta of perguntas) {
     pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
   }
