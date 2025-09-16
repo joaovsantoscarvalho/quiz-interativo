@@ -1,4 +1,4 @@
-import {aleatorio} from './aleatorio';
+import {aleatorio, nome} from './aleatorio';
 import {perguntas} from './perguntas';
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
