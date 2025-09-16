@@ -60,7 +60,7 @@ function respostaSelecionada(opcaoSelecioonada){
 
 function mostrarResultado() {
   caixaPerguntas.textContent = '';
-  textoResultado.textContent = historiaFinal
+  textoResultado.textContent = historiaFinal;
   caixaAlternativas.textContent = "";
   caixaResultado.classlist.add("mostrar");
   botaoJogarNovamente.addEventListener("click", jogarNovamente);
