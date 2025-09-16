@@ -49,7 +49,7 @@ function mostraAlternativas(){
 function respostaSelecionada(opcaoSelecionada){
   const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
   historiaFinal += afirmacoes + " ";
-  if(opcaoSelecioonada.proxima !== undefined) {
+  if(opcaoSelecionada.proxima !== undefined) {
     atual = opcaoSelecionada.proxima;
   }else {
     mostrarResultado();
