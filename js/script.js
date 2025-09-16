@@ -46,17 +46,23 @@ function mostraAlternativas() {
   }
 }
 
-function respostaSelecionada(opcaoSelecioonada) {
+function respostaSelecionada(opcaoSelecioonada){
   const afirmacoes = aleatorio(opcaoSelecioonada.afirmacao);
   historiaFinal += afirmacoes + " ";
-  if
+  if(opcaoSelecioonada.proxima !== undefined) {
+    atual = opcaoSelecioonada.proxima;
+  }else {
+    mostrarResultado();
+    return;
+  }
+  mostraPergunta();
 }
 
 function mostrarResultado() {
   caixaPerguntas.textContent = '';
   textoResultado.textContent = historiaFinal
   caixaAlternativas.textContent = "";
-  caixaResultado.classlist.add(".mostrar");
+  caixaResultado.classlist.add("mostrar");
   botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 

@@ -13,15 +13,15 @@ export const perguntas = [
             {
                 Texto: "ironman 3,800m  nadando 180Km pedalando e 42,195m correndo",
                 afirmacao: [
-                    "show uma distancia espetacular que envolve tres espotes",
-                    "você gosta de desfios "
+                    "show uma distancia espetacular que envolve tres espotes diferentes",
+                    "é muia dedicação"
                 ],
                 proxima: 1,
             }
         ]
     },
     {
-        enunciado: "Você sabe qual é a principal transição no triatlo?",
+        enunciado: "Você prefere qual modalidade do iromem?",
         alternativas: [
             {
                 Texto: "A transição entre natação e ciclismo",
