@@ -59,14 +59,14 @@ function respostaSelecionada(opcaoSelecioonada){
 }
 
 function mostrarResultado(){
-  caixaPerguntas.textContent = '';
+  caixaPerguntas.textContent = 'Após os estudos, $';
   textoResultado.textContent = historiaFinal;
   caixaAlternativas.textContent = "";
   caixaResultado.classlist.add("mostrar");
   botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
-function jogarNovamente() {
+function jogarNovamente(){
   atual = 0;
   historiaFinal "";
   caixaResultado.classList.remove("mostrar");
