@@ -50,7 +50,7 @@ function respostaSelecionada(opcaoSelecionada){
   const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
   historiaFinal += afirmacoes + " ";
   if(opcaoSelecioonada.proxima !== undefined) {
-    atual = opcaoSelecioonada.proxima;
+    atual = opcaoSelecionada.proxima;
   }else {
     mostrarResultado();
     return;
