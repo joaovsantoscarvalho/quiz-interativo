@@ -1,104 +1,105 @@
 export const perguntas = [
     {
-        enunciado: "Você prefere correr uma ultramaratona ou fazer um ironman",
+        enunciado: "Você prefere correr uma ultramaratona ou participar de um Ironman?",
         alternativas: [
             {
-                Texto: "ultamaratona 110Km na montanha ",
+                Texto: "Ultramaratona 110km na montanha",
                 afirmacao: [
-                    "legal é uma distancia desafiadora",
-                    "exige banstante preparo"
+                    "É uma distância desafiadora, ideal para quem gosta de longas jornadas e natureza.",
+                    "Exige bastante preparo físico e mental para suportar a resistência ao longo da prova."
                 ],
                 poxima: 1,
             },
             {
-                Texto: "ironman 3,800m  nadando 180Km pedalando e 42,195m correndo",
+                Texto: "Ironman: 3.800m nadando, 180km pedalando e 42,195km correndo",
                 afirmacao: [
-                    "show uma distancia espetacular que envolve tres espotes diferentes",
-                    "é muia dedicação"
+                    "Uma prova épica que desafia os limites do corpo em três esportes diferentes.",
+                    "É uma competição que exige não só resistência, mas também grande habilidade técnica em cada modalidade."
                 ],
                 proxima: 1,
             }
         ]
     },
     {
-        enunciado: "Você prefere qual modalidade do iromem?",
+        enunciado: "Dentro do Ironman, qual parte você acha mais desafiadora?",
         alternativas: [
             {
-                Texto: "A transição entre natação e ciclismo",
+                Texto: "A natação: 3.800m em águas abertas",
                 afirmacao: [
-                    "Correto! A transição de natação para ciclismo é uma das mais importantes no triatlo.",
-                    "Essa transição é conhecida como T1, e o atleta precisa trocar o equipamento de natação pelo de ciclismo."
+                    "Correto! A natação no Ironman é exigente, pois é em águas abertas, onde as condições podem ser imprevisíveis.",
+                    "Essa etapa requer um bom preparo técnico e psicológico para lidar com o estresse da água."
                 ],
                 proxima: 2,
             },
             {
-                Texto: "A transição entre ciclismo e corrida",
+                Texto: "O ciclismo: 180km pedalando",
                 afirmacao: [
-                    "Errado. A transição de ciclismo para corrida, chamada de T2, também é muito importante, mas a T1 é a principal no triatlo.",
-                    "T2 é crucial para ajustar a postura após o esforço intenso do ciclismo."
+                    "Errado. Embora o ciclismo também seja desafiador, a natação é geralmente considerada a parte mais difícil para muitos atletas.",
+                    "O ciclismo no Ironman exige resistência muscular e boa estratégia de alimentação e hidratação."
                 ],
                 proxima: 2,
             }
         ]
     },
     {
-        enunciado: "Você sabe o que é necessário para um triatleta realizar uma boa transição?",
+        enunciado: "Para uma ultramaratona, o que é mais importante para o desempenho?",
         alternativas: [
             {
-                Texto: "Prática e organização do material de transição",
+                Texto: "Estratégia de pacing e hidratação constante",
                 afirmacao: [
-                    "Correto! A prática de transições é essencial para economizar tempo.",
-                    "Além disso, a organização dos itens na área de transição pode fazer uma grande diferença na velocidade."
+                    "Correto! Controlar o ritmo e manter a hidratação são cruciais para concluir uma ultramaratona.",
+                    "Muitos corredores falham em controlar o ritmo no início e pagam o preço mais tarde, por isso é importante gerenciar bem a energia."
                 ],
                 proxima: 3,
             },
             {
-                Texto: "Usar equipamentos leves e caros",
+                Texto: "Equipamentos super leves e de última geração",
                 afirmacao: [
-                    "Errado. Embora equipamentos de qualidade ajudem, o mais importante na transição é a prática e a preparação.",
-                    "Equipamentos caros não garantem uma boa transição se o atleta não for eficiente."
+                    "Errado. Embora equipamentos bons ajudem, o fator decisivo na ultramaratona é o preparo físico e mental, junto com uma boa estratégia de corrida e alimentação."
                 ],
                 proxima: 3,
             }
         ]
     },
     {
-        enunciado: "Você sabe qual é a principal estratégia de nutrição para um triatleta em uma prova longa?",
+        enunciado: "Qual é a principal estratégia de nutrição para um triatleta durante um Ironman?",
         alternativas: [
             {
                 Texto: "Repor carboidratos e eletrólitos durante a prova",
                 afirmacao: [
-                    "Correto! Durante provas longas, como o Ironman, a reposição de carboidratos e eletrólitos é essencial.",
-                    "A hidratação e os carboidratos ajudam a manter o nível de energia e a prevenir a fadiga."
+                    "Correto! Manter os níveis de carboidratos e eletrólitos é fundamental para a performance em uma prova longa como o Ironman.",
+                    "A ingestão adequada de carboidratos e eletrólitos ajuda a prevenir a fadiga e manter a energia durante as horas de esforço."
                 ],
                 proxima: 4,
             },
             {
-                Texto: "Fazer jejum antes da prova para aumentar a resistência",
+                Texto: "Comer alimentos ricos em proteínas antes e durante a prova",
                 afirmacao: [
-                    "Errado. O jejum pode reduzir os níveis de energia durante a prova.",
-                    "É importante comer antes e durante a competição para manter os níveis de glicose no sangue estáveis."
+                    "Errado. As proteínas são importantes para recuperação, mas durante a prova, o foco deve ser nos carboidratos e eletrólitos para fornecer energia rápida.",
+                    "Durante o Ironman, a digestão de proteínas pode ser mais lenta e não fornece a energia necessária de imediato."
                 ],
                 proxima: 4,
             }
         ]
     },
     {
-        enunciado: "Você sabe quais são as três modalidades do triatlo?",
+        enunciado: "Você sabe o que é necessário para um atleta se preparar para uma ultramaratona?",
         alternativas: [
             {
-                Texto: "Natação, ciclismo e corrida",
+                Texto: "Treinamento longo e progressivo, focando resistência",
                 afirmacao: [
-                    "Correto! O triatlo é composto por três modalidades: natação, ciclismo e corrida, realizadas em sequência.",
-                    "A combinação dessas modalidades faz do triatlo uma das competições mais desafiadoras."
+                    "Correto! A chave para uma ultramaratona é o treinamento progressivo, aumentando a distância ao longo do tempo.",
+                    "O foco deve ser resistência e adaptação do corpo a longos períodos de esforço, além de treinos específicos para o terreno."
                 ],
+                proxima: 5,
             },
             {
-                Texto: "Corrida, levantamento de peso e natação",
+                Texto: "Treinamento curto e intenso, focando velocidade",
                 afirmacao: [
-                    "Errado. O triatlo não envolve levantamento de peso, apenas natação, ciclismo e corrida.",
-                    "Essas três modalidades exigem habilidades muito diferentes e uma preparação física completa."
+                    "Errado. Para ultramaratonas, a resistência e o volume de treino são mais importantes do que a velocidade.",
+                    "Treinos curtos e rápidos podem ser úteis, mas o preparo para uma prova tão longa exige resistência, não velocidade."
                 ],
+                proxima: 5,
             }
         ]
     }
