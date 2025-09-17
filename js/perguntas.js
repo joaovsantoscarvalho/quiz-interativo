@@ -8,7 +8,7 @@ export const perguntas = [
                     "É uma distância desafiadora, ideal para quem gosta de longas jornadas e natureza.",
                     "Exige bastante preparo físico e mental para suportar a resistência ao longo da prova."
                 ],
-                poxima: 1,
+                proxima: 1,
             },
             {
                 texto: "Ironman: 3.800m nadando, 180km pedalando e 42,195km correndo",
